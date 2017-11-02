@@ -51,6 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'myblog.urls'
+LOGIN_REDIRECT_URL = '/'
 
 TEMPLATES = [
     {
